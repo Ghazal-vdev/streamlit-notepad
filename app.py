@@ -15,12 +15,12 @@ if menu == 'Add note':
    note = st.text_area("Write as you wish",placeholder="Start unperfect...", height=150)
    if st.button("Save"):
         if note:
-            success = manager.add_note(note)
+            success, msg = manager.add_note(note)
             if success:
               st.success("Saved.✅")
               st.balloons()
             else:
-                st.error("Something went wrong in saving.")
+                st.error(msg)
         else:
             st.warning("Please write something.")
 
