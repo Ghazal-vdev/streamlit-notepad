@@ -25,7 +25,7 @@ notes.db     # SQLite database (created automatically on first run)
 ## How to Run
 1. Clone the repository:
 ```
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/Ghazal-dev/your-repo-name.git
    cd your-repo-name
 ```
 2. Install the requirements:
@@ -37,9 +37,6 @@ notes.db     # SQLite database (created automatically on first run)
 ```
    streamlit run app.py
 ```
-
-## Screenshot
-![App screenshot](screenshot.png)
 
 ## What I Practiced
 - Separating the interface (`app.py`) from the logic (`MyNotes.py`)
