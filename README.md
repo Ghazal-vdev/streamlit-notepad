@@ -25,8 +25,8 @@ notes.db     # SQLite database (created automatically on first run)
 ## How to Run
 1. Clone the repository:
 ```
-   git clone https://github.com/Ghazal-dev/your-repo-name.git
-   cd your-repo-name
+   git clone https://github.com/Ghazal-dev/streamlit-notepad.git
+   cd streamlit-notepad
 ```
 2. Install the requirements:
 ```
